@@ -1,0 +1,44 @@
+.login_block {
+  width: 50vw;
+  height: 100vh;
+  margin: auto;
+  background: #b7977c;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+
+    label {
+      margin: 10px 0;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  button {
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+  }
+
+  &--error {
+    input {
+      border-color: red;
+    }
+  }
+}
+
+.error_message {
+  color: red;
+  margin-bottom: 10px;
+}
